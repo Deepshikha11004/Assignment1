@@ -1,0 +1,94 @@
+\documentclass[journal, 12pt, twocolumn]{IEEEtran}
+\usepackage{enumitem}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+
+
+\begin{document}
+\title{Assignment 1(ICSE 2018 BOARD)}
+\author{Deepshikha(CS21BTECH11016)}
+\maketitle
+
+\textbf{5.a}
+The 4th term of a G.P. is 16 and the 7th terms is 128. Find the first term and common ratio of the series.
+
+
+\textbf{Generalised:}Let the first term of the G.P. be a and common ratio r
+, a\textsubscript m = p and a\textsubscript n = q be the m th  and n th term of G.P. respectively.
+
+
+Therefore,
+\begin{equation}
+    a_m=ar^{(m-1)} = p
+\end{equation}
+\begin{equation}
+    a_n=ar^{(n-1)} = q
+\end{equation}
+
+Dividing the equation $(2)\div$(1),
+\begin{align*}
+    \frac{ar^{(n-1)}}{ar^{(m-1)}}=\frac{q}{p} 
+\end{align*}
+
+
+\[r^{(n-m)}=\frac{q}{p}\]
+
+
+
+\begin{equation}
+    r =\left\{\frac{q}{p}\right\}^{(\frac{1}{n-m})}
+\end{equation}
+
+Equation (3) gives the value of r.
+
+Put equation (3) in equation (1) gives value of a ,
+\begin{equation}
+    a=\left\{\frac{p^{(n-1)}}{q^{(m-1)}}\right\}^{({\frac{1}{n-m}})}
+\end{equation}
+
+Thus, equation (3) and (4) gives value of r and a respectively.
+
+
+
+
+\textbf{Solution:}
+Substituting m=4,n=7,p=16,q=128 in equations(3) and (4),
+we get,
+\[r=8^{(\frac{1}{3})}\]
+\[r=2\]
+and,
+\[ a=\left\{\frac{16^{6}}{128^{3}}\right\}^{({\frac{1}{3}})}\]
+\[a=2\]
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    Variable & Value & Description\\
+    \hline\hline
+    $a_4$ & 16 & Fourth term\\
+    $a_7$ & 128 & Seventh term\\
+    a & 2 & First term\\
+    r & 2 & Common diff.\\
+    \hline
+    \end{tabular}
+    \caption{GP}
+    \label{Table}
+\end{table}
+
+Therefore, 
+
+First term=2 and,
+
+
+Common difference=2
+
+
+
+
+\end{document}
+
